@@ -1,0 +1,69 @@
+.form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input,
+.form>label {
+    color: rebeccapurple;
+    text-align: start!important;
+    margin-bottom: 5px;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.submit {
+    width: 305px;
+}
+
+.input>input {
+    width: 300px;
+}
+
+.form>table {
+    height: 35px;
+    width: 450px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: -58px;
+}
+
+.col {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.phoneNo {
+    margin-bottom: 15px;
+}
+
+.phoneNo>input {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.countryoptions {
+    height: 20px;
+    width: 305px;
+    margin-bottom: 15px;
+}
+
+.stateoptions {
+    width: 305px;
+    height: 20px;
+}
+
+.errors {
+    font-size: 8px;
+    font-weight: 700;
+    color: rgb(236, 69, 69);
+}
